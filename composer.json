@@ -1,0 +1,16 @@
+{
+    "name": "admin/phpbackend",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Endrigogustavo",
+            "email": "endrigogustavo2006@gmail.com"
+        }
+    ],
+    "require": {}
+}
