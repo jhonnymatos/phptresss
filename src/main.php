@@ -19,9 +19,9 @@
 
     echo"Funcionario(a): {$funcionario->getNome()}, Idade: {$funcionario->getIdade()}, ID: {$funcionario->getIdFuncionario()}, Cargo: {$funcionario->getCargo()}, Departamento: {$funcionario->getDepartamento()}<br>";
 
-    echo "Professor(a): {$professor1->getNome()}, Idade: {$professor1->getIdade()}, Disciplina: {$professor1->getDisciplina()}<br>";
-    echo "Professor(a): {$professor2->getNome()}, Idade: {$professor2->getIdade()}, Disciplina: {$professor2->getDisciplina()}<br>";
-    echo "Professor(a): {$professor3->getNome()}, Idade: {$professor3->getIdade()}, Disciplina: {$professor3->getDisciplina()}<br>";
+    echo "Professor(a): {$professor1->getNome()}, Idade: {$professor1->getIdade()}, Disciplina: {$professor1->getDisciplinas()}<br>";
+    echo "Professor(a): {$professor2->getNome()}, Idade: {$professor2->getIdade()}, Disciplina: {$professor2->getDisciplinas()}<br>";
+    echo "Professor(a): {$professor3->getNome()}, Idade: {$professor3->getIdade()}, Disciplina: {$professor3->getDisciplinas()}<br>";
     
     echo "Aluno: {$aluno1->getNome()}, Idade: {$aluno1->getIdade()}, Matrícula: {$aluno1->getMatricula()}, Orientador: {$aluno1->getOrientadorAcademico()}<br>";
     echo "Aluno: {$aluno2->getNome()}, Idade: {$aluno1->getIdade()}, Matrícula: {$aluno1->getMatricula()}, Orientador: {$aluno2->getOrientadorAcademico()}<br>";
