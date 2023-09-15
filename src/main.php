@@ -7,7 +7,7 @@
     use App\model\Professor;
     use App\model\Aluno;
 
-    $funcionario = new Funcionario("Esmeralda", 50,78945612300, 256, "Faxineira", "Limpeza");
+    $funcionario1 = new Funcionario("Esmeralda", 50,78945612300, 256, "Faxineira", "Limpeza");
 
     $professor1 = new Professor("Aguinaldo", 60, 153246555, "Historia");
     $professor2 = new Professor("Leandro", 36, 45845635564, "Logistica");
